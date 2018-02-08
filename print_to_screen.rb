@@ -1,6 +1,7 @@
-counter = 100
-
-while counter <= 1 do
-	p counter 
-	counter -= 1
+z = 0
+100.times do |z|
+	z += 1
+	if z % 2 == 0
+		puts z
+	end 
 end
