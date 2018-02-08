@@ -1,2 +1,10 @@
-puts "Gabrielle Montantez"
-puts "1\n2\n3\n4\n5\n6\n7\n8\n9\n10"
+s = 0
+while s <=99
+ 	s += 1
+ if 
+ 	s == 5
+ 	puts "MinedMinds"
+ else
+    puts s
+ end
+end
