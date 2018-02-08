@@ -1,6 +1,6 @@
-class Integer
-  def odd?
-    self[2].nonzero?
-  end
+counter = 100
+
+while counter <= 1 do
+	p counter 
+	counter -= 1
 end
-102.times { |i| puts i if i.even? }
