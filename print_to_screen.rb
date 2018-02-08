@@ -1,10 +1,4 @@
-s = 0
-while s <=99
- 	s += 1
- if 
- 	s == 5
- 	puts "MinedMinds"
- else
-    puts s
+ x = 0
+ while x <= 99
+ 	puts x += 1
  end
-end
