@@ -3,5 +3,5 @@ z = 0
 	z += 1
 	if z % 2 == 0
 		puts z
-	end 
+	end
 end
