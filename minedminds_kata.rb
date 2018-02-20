@@ -6,12 +6,13 @@ y = 0
    elsif
    	 y % 3 == 0
    	 puts "mined"
-   elsif y == 5
+   elsif 
+      y == 5
    	 puts "minds"
    elsif 
       y % 5 == 0
    elsif 
-     puts "minds"
+     puts "minded minds"
    else
       puts y
   end
