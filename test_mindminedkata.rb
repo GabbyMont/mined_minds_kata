@@ -13,4 +13,16 @@ class Test_Fuction_test < Minitest::Test
 	def test_7_returns_7
 		assert_equal(7, minedminds(7))
 	end
+
+	def test_3_returns_mined
+		assert_equal("mined", minedminds(3))
+	end
+
+	def test_5_returns_minds
+		assert_equal("minds", minedminds(5))
+	end
+
+	def test_divisble_by_3_5
+		assert_equal("mined minds", minedminds(15))
+	end
 end
