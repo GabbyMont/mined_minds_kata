@@ -7,10 +7,10 @@ class Array_test < Minitest::Test
 		assert_equal(1, 1)
 	end
 
-#	def test_returns_type_of_array
-#		m_array = minedminds_array()
-#		assert_equal(Array, m_array.class)
-#	end
+	def test_returns_type_of_array
+		m_array = minedminds_array()
+		assert_equal(Array, m_array.class)
+	end
 
 #	def test_array_length_is_100
 #		m_array = minedminds_array()
