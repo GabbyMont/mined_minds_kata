@@ -34,13 +34,13 @@ class Test_Fuction_test < Minitest::Test
 		assert_equal("minds", minedminds(5))
 	end
 
-# 	def test_div_5
-# 		assert_equal("minds", minedminds(10))
-# 	end
+	def test_div_5
+		assert_equal("minds", minedminds(10))
+	end
 
-# 	def test_div_5_2
-# 		assert_equal("minds", minedminds(20))
-# 	end
+	# def test_div_5_2
+	# 	assert_equal("minds", minedminds(20))
+	# end
 
 # 	def test_div_5_3
 # 		assert_equal("minds", minedminds(25))
