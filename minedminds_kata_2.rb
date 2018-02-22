@@ -12,10 +12,10 @@ class Array_test < Minitest::Test
 		assert_equal(Array, m_array.class)
 	end
 
-#	def test_array_length_is_100
-#		m_array = minedminds_array()
-#		assert_equal(100, m_array.length)
-#	end
+	def test_array_length_is_100
+		m_array = minedminds_array()
+		assert_equal(100, m_array.length)
+	end
 #
 #	def test_index_0_is_1
 #		m_array = minedminds_array()
