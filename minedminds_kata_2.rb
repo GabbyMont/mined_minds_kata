@@ -16,12 +16,12 @@ class Array_test < Minitest::Test
 		m_array = minedminds_array()
 		assert_equal(100, m_array.length)
 	end
-#
-#	def test_index_0_is_1
-#		m_array = minedminds_array()
-#		assert_equal(1, m_array[0])
-#	end
-#
+
+	def test_index_0_is_1
+		m_array = minedminds_array()
+		assert_equal(1, m_array[0])
+	end
+
 #	def test_3_returns_mined
 #		assert_equal("mined", minedminds_array(3))
 #	end
