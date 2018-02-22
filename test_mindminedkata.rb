@@ -42,9 +42,9 @@ class Test_Fuction_test < Minitest::Test
 		assert_equal("minds", minedminds(20))
 	end
 
-# 	def test_div_5_3
-# 		assert_equal("minds", minedminds(25))
-# 	end
+	def test_div_5_3
+		assert_equal("minds", minedminds(25))
+	end
 
 # 	def test_divisble_by_3_5
 # 		assert_equal("mined minds", minedminds(15))
