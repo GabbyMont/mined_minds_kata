@@ -22,9 +22,9 @@ class Test_Fuction_test < Minitest::Test
 		assert_equal("mined", minedminds(9))
 	end
 
-# 	def test_div_by_3_2
-# 		assert_equal("mined", minedminds(18))
-# 	end
+	def test_div_by_3_2
+		assert_equal("mined", minedminds(18))
+	end
 
 # 	def test_div_by_3_3
 # 		assert_equal("mined", minedminds(6))
