@@ -46,4 +46,9 @@ class Array_test < Minitest::Test
 		m_array = minedminds_array()
 		assert_equal("Mined Minds", m_array[14])
 	end
+
+	def test_30__returned_minedminds
+		m_array = minedminds_array
+		assert_equal("Mined Minds", m_array[29])
+	end
 end
