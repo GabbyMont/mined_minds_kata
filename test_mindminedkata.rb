@@ -10,9 +10,9 @@ class Test_Fuction_test < Minitest::Test
 		assert_equal(1, minedminds(1))
 	end
 
-	# def test_7_returns_7
-# 		assert_equal(7, minedminds(7))
-# 	end
+	def test_7_returns_7
+		assert_equal(7, minedminds(7))
+	end
 
 # 	def test_3_returns_mined
 # 		assert_equal("mined", minedminds(3))
