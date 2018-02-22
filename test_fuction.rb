@@ -10,6 +10,8 @@
 #	end
 #end
 
+
+
 def minedminds(x)
 	if x % 3 == 0 && x % 5 == 0
 		return "mined minds"
@@ -30,3 +32,4 @@ def create_1_to_100_array
 		x += 2
 	end
 end
+
