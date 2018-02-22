@@ -4,7 +4,7 @@ require_relative "test_function_2.rb"
 class Array_test < Minitest::Test
 
 	def test_1_equals_1
-		assert_equal(1, 1)
+		assert_equal(1,1)
 	end
 
 	def test_returns_type_of_array
@@ -22,7 +22,8 @@ class Array_test < Minitest::Test
 		assert_equal(1, m_array[0])
 	end
 
-#	def test_3_returns_mined
-#		assert_equal("mined", minedminds_array(3))
-#	end
+	def test_3_returned_mined
+		m_array = minedminds_array()
+		assert_equal("Mined", m_array[2])
+	end
 end
