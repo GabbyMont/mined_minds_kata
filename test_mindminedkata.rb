@@ -26,9 +26,9 @@ class Test_Fuction_test < Minitest::Test
 		assert_equal("mined", minedminds(18))
 	end
 
-# 	def test_div_by_3_3
-# 		assert_equal("mined", minedminds(6))
-# 	end
+	def test_div_by_3_3
+		assert_equal("mined", minedminds(6))
+	end
 
 # 	def test_5_returns_minds
 # 		assert_equal("minds", minedminds(5))
